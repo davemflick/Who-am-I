@@ -3,8 +3,13 @@ include ./header
 block content
 	h1 Your Machine
 	.howContainer
-		h3 How it works: 
-		p Add '/fcc/whoIam' to the end of the current URL. A JSON object should return with your current IP address, language being used, and the software currently running your machine.
+		h2 How it works: 
+		p.explain Add '/fcc/whoIam' to the end of the current URL. A JSON object should return with your current IP address, language being used, and the software currently running your machine.
 	.exampleContainer
-		h3 Shortcut Here:
+		h2 Shortcut Here:
 		a(href="http://localhost:3000/fcc/whoIam") localhost:3000/fcc/whoIam
+	.creditContainer
+		p Built by 
+			a(href="https://github.com/davemflick", target="_blank") David Flick
+		p Request Header Parser Microservice project for 
+			a(href="https://www.freecodecamp.com/challenges/request-header-parser-microservice", target="_blank") freeCodeCamp
