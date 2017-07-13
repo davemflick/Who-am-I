@@ -13,9 +13,6 @@ app.get('/', function (req, res) {
   res.render('body');
 
 })
-var getClientAddress = function (req) {
-    
-};
 
 app.get('/fcc/whoIam/', function (req, res) {
 	//Get IP address
